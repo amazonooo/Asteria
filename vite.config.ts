@@ -1,7 +1,18 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import observerPlugin from 'mobx-react-observer/babel-plugin'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(
+    {
+      babel: {
+        plugins: [
+          observerPlugin(
+            { exclude: ["src/ui-components/**"] }
+          )
+        ]
+      }
+    }
+  )],
 })
