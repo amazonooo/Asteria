@@ -9,87 +9,87 @@ export const TRACKS: ITrack[] = [
 		duration: 159,
 	},
 	{
-		name: 'all_the_way_live',
+		name: 'All The Way Live',
 		file: '/audio/all_the_way_live.mp3',
 		artist: ARTISTS[6], // Metro Boomin (фит)
-		duration: 0,
+		duration: 245,
 	},
 	{
-		name: 'am_i_dreaming',
+		name: 'Am I Dreaming',
 		file: '/audio/am_i_dreaming.mp3',
 		artist: ARTISTS[3], // Lil Yachty
-		duration: 0,
+		duration: 256,
 	},
 	{
-		name: 'creepin',
+		name: 'Creepin',
 		file: '/audio/creepin.mp3',
 		artist: ARTISTS[6], // Metro Boomin
-		duration: 0,
+		duration: 221,
 	},
 	{
-		name: 'drive_me_crazy',
+		name: 'drive ME crazy!',
 		file: '/audio/drive_me_crazy.mp3',
 		artist: ARTISTS[3], // Lil Yachty
-		duration: 0,
+		duration: 230,
 	},
 	{
-		name: 'gloria',
+		name: 'Gloria',
 		file: '/audio/gloria.mp3',
 		artist: ARTISTS[4], // Drake (есть альбом Gloria, но у тебя скорее плейсхолдер)
-		duration: 0,
+		duration: 287,
 	},
 	{
-		name: 'good_days',
+		name: 'Good Days',
 		file: '/audio/good_days.mp3',
 		artist: ARTISTS[2], // SZA
-		duration: 0,
+		duration: 278,
 	},
 	{
-		name: 'hello',
+		name: 'hello?',
 		file: '/audio/hello.mp3',
 		artist: ARTISTS[0], // Clairo
-		duration: 0,
+		duration: 135,
 	},
 	{
-		name: 'ivy',
+		name: 'Ivy',
 		file: '/audio/ivy.mp3',
 		artist: ARTISTS[1], // Frank Ocean
-		duration: 0,
+		duration: 249,
 	},
 	{
-		name: 'one_dance',
+		name: 'One Dance',
 		file: '/audio/one_dance.mp3',
 		artist: ARTISTS[4], // Drake
-		duration: 0,
+		duration: 173,
 	},
 	{
-		name: 'open_arms',
+		name: 'Open Arms',
 		file: '/audio/open_arms.mp3',
 		artist: ARTISTS[2], // SZA (трек SZA ft. Travis Scott)
-		duration: 0,
+		duration: 239,
 	},
 	{
-		name: 'pink_white',
+		name: 'Pink + White',
 		file: '/audio/pink_white.mp3',
 		artist: ARTISTS[1], // Frank Ocean
 		duration: 184,
 	},
 	{
-		name: 'seigfried',
+		name: 'Seigfried',
 		file: '/audio/seigfried.mp3',
 		artist: ARTISTS[1], // Frank Ocean
-		duration: 0,
+		duration: 334,
 	},
 	{
-		name: 'self_love',
+		name: 'Self-love',
 		file: '/audio/self_love.mp3',
 		artist: ARTISTS[6], // Metro Boomin
-		duration: 0,
+		duration: 189,
 	},
 	{
-		name: 'snooze',
+		name: 'Snooze',
 		file: '/audio/snooze.mp3',
 		artist: ARTISTS[2], // SZA
-		duration: 0,
+		duration: 201,
 	},
 ]
