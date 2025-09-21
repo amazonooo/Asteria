@@ -9,9 +9,9 @@ interface Props {
 
 export function Track({ track }: Props) {
   return (
-		<div className='border-b border-player-bg/40 py-6 flex justify-between items-center'>
+		<div className='border-b border-player-bg/40 py-5 flex justify-between items-center'>
 
-			<TrackInfo title={track.name} subtitle={transformDuration(track.duration)} image={undefined} />
+			<TrackInfo title={track.name} subtitle={transformDuration(track.duration)} image={track.cover} />
 
 			<div className='flex items-center gap-4'>
 				<button>

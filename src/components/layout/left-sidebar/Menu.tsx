@@ -15,7 +15,7 @@ export function Menu({items, title}: Props) {
 			)}
 			<ul>
 				{items.map(item => (
-					<li>
+					<li key={item.name}>
 						<a
 							href={item.link}
 							className='flex gap-3 items-center mb-5 group cursor-pointer'

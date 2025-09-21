@@ -1,7 +1,8 @@
-import dayjs from 'dayjs'
-import utc from 'dayjs/plugin/utc'
+export const transformDuration = (duration?: number) => {
+	if (!duration && duration !== 0) return '0:00'
 
-dayjs.extend(utc)
+	const minutes = Math.floor(duration / 60)
+	const seconds = duration % 60
 
-export const transformDuration = (duration: number) =>
-	dayjs.unix(duration).utc().format('m:ss')
+	return `${minutes}:${seconds.toString().padStart(2, '0')}`
+}
